@@ -1,5 +1,12 @@
 # BKUC-Indium---DEC
 Reversal of BKUC Indium android roblox executor
+##### Disclaimer
+PLEASE NOTE I AM NOT AT ALL AFFILIATED OR PRACTICALLY EVEN IN CONTACT WITH THE DEVELOPERS OF THIS APP
+They banned me from their discord server for reasons I am not aware of, possible just because I was decompiling their app and they don't like that which would be a major red flag security wise.
+for full transparency, the discord server of the devs is discord.gg/security-research, please do not join the server with the intention of being argumentative, combative, or toxic in any way.
+
+----
+
 https://www.virustotal.com/gui/file/29c3da5763a07743540d5efe4fd06b6a3f8741e8ec46c9244fca838cd998b2fc
 
 Overall it seems benign
@@ -11,3 +18,8 @@ if you take a look at the two Quixxi scans in the pdf files INDIUM.pdf and ROBLO
 Looking through the code the worst thing that i found was some analytics stuff which is probably from roblox itself and some support for remote debugging which is kind of questionable but ehh.
 
 debugging/profiling analysis pending.
+
+
+even if it itself is not malware, using a work.ink download link is distasteful and reflects poorly on the character of the devs.
+this is the official download link but i suggest recommend against using it https://workink.me/3s6/boykisseruncentral-roblox
+if you are a normal person that doesnt like work.ink i will put the current version in the releases so you can download it from here instead.

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.camera.view.PreviewView android:id="@id/qr_preview_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.roblox.client.qrscanner.CustomViewfinderView android:id="@id/qr_viewfinder_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/white" android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/qr_align_qr_code_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="48.0dip" android:layout_marginRight="48.0dip" android:layout_marginBottom="100.0dip" android:text="@string/Feature_AddFriends_Label_AlignQrCode" />
+    </FrameLayout>
+    <Toolbar android:background="@null" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip">
+        <Button android:id="@id/back_button" android:background="@drawable/back_icon" android:layout_width="28.0dip" android:layout_height="28.0dip" android:onClick="backButtonPressed" />
+        <View android:background="#33ffffff" android:layout_width="1.0dip" android:layout_height="20.0dip" android:layout_marginLeft="28.0dip" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/white" android:id="@id/scan_qr_code_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/Feature_AddFriends_Action_ScanQrCode" />
+    </Toolbar>
+</merge>

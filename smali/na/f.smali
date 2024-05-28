@@ -1,0 +1,163 @@
+.class public final enum Lna/f;
+.super Ljava/lang/Enum;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Enum<",
+        "Lna/f;",
+        ">;"
+    }
+.end annotation
+
+
+# static fields
+.field public static final enum n:Lna/f;
+
+.field public static final enum o:Lna/f;
+
+.field public static final enum p:Lna/f;
+
+.field public static final enum q:Lna/f;
+
+.field public static final enum r:Lna/f;
+
+.field public static final enum s:Lna/f;
+
+.field private static final synthetic t:[Lna/f;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 13
+
+    .line 1
+    new-instance v0, Lna/f;
+
+    const-string v1, "CAMERA"
+
+    const/4 v2, 0x0
+
+    invoke-direct {v0, v1, v2}, Lna/f;-><init>(Ljava/lang/String;I)V
+
+    sput-object v0, Lna/f;->n:Lna/f;
+
+    .line 2
+    new-instance v1, Lna/f;
+
+    const-string v3, "CONTACT"
+
+    const/4 v4, 0x1
+
+    invoke-direct {v1, v3, v4}, Lna/f;-><init>(Ljava/lang/String;I)V
+
+    sput-object v1, Lna/f;->o:Lna/f;
+
+    .line 3
+    new-instance v3, Lna/f;
+
+    const-string v5, "RECORD_AUDIO"
+
+    const/4 v6, 0x2
+
+    invoke-direct {v3, v5, v6}, Lna/f;-><init>(Ljava/lang/String;I)V
+
+    sput-object v3, Lna/f;->p:Lna/f;
+
+    .line 4
+    new-instance v5, Lna/f;
+
+    const-string v7, "MODIFY_AUDIO_SETTINGS"
+
+    const/4 v8, 0x3
+
+    invoke-direct {v5, v7, v8}, Lna/f;-><init>(Ljava/lang/String;I)V
+
+    sput-object v5, Lna/f;->q:Lna/f;
+
+    .line 5
+    new-instance v7, Lna/f;
+
+    const-string v9, "WRITE_EXTERNAL_STORAGE"
+
+    const/4 v10, 0x4
+
+    invoke-direct {v7, v9, v10}, Lna/f;-><init>(Ljava/lang/String;I)V
+
+    sput-object v7, Lna/f;->r:Lna/f;
+
+    .line 6
+    new-instance v9, Lna/f;
+
+    const-string v11, "POST_NOTIFICATIONS"
+
+    const/4 v12, 0x5
+
+    invoke-direct {v9, v11, v12}, Lna/f;-><init>(Ljava/lang/String;I)V
+
+    sput-object v9, Lna/f;->s:Lna/f;
+
+    const/4 v11, 0x6
+
+    new-array v11, v11, [Lna/f;
+
+    aput-object v0, v11, v2
+
+    aput-object v1, v11, v4
+
+    aput-object v3, v11, v6
+
+    aput-object v5, v11, v8
+
+    aput-object v7, v11, v10
+
+    aput-object v9, v11, v12
+
+    .line 7
+    sput-object v11, Lna/f;->t:[Lna/f;
+
+    return-void
+.end method
+
+.method private constructor <init>(Ljava/lang/String;I)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()V"
+        }
+    .end annotation
+
+    invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
+
+    return-void
+.end method
+
+.method public static valueOf(Ljava/lang/String;)Lna/f;
+    .locals 1
+
+    const-class v0, Lna/f;
+
+    invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
+
+    move-result-object p0
+
+    check-cast p0, Lna/f;
+
+    return-object p0
+.end method
+
+.method public static values()[Lna/f;
+    .locals 1
+
+    sget-object v0, Lna/f;->t:[Lna/f;
+
+    invoke-virtual {v0}, [Lna/f;->clone()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, [Lna/f;
+
+    return-object v0
+.end method

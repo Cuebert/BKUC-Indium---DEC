@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:id="@+id/landing_carousel_item_frame_layout"
+    android:background="@color/RbxTransparent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="10">
+    <ImageView
+        android:id="@+id/landing_carousel_slide_image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="6"/>
+    <com.roblox.client.components.RbxTextView
+        android:textSize="18sp"
+        android:textColor="@color/RbxGray1"
+        android:gravity="center"
+        android:id="@+id/landing_carousel_slide_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"/>
+    <com.roblox.client.components.RbxTextView
+        android:textSize="14sp"
+        android:textColor="@color/RbxGray2"
+        android:gravity="center"
+        android:id="@+id/landing_carousel_slide_body_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:layout_marginTop="12dp"/>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_dialog_fixed_width_major">50%</dimen>
+    <dimen name="abc_dialog_fixed_width_minor">70%</dimen>
+    <dimen name="abc_dialog_min_width_major">45%</dimen>
+    <dimen name="abc_dialog_min_width_minor">72%</dimen>
+    <dimen name="tabBarTextSize">14sp</dimen>
+    <dimen name="textSizeButton">22sp</dimen>
+    <dimen name="textSizeButtonImportant">25sp</dimen>
+    <dimen name="textSizeLabel">20sp</dimen>
+</resources>

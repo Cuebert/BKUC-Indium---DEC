@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="landingButtonHeight">60dp</dimen>
+    <dimen name="settingsAlertIconLeftMargin">8dp</dimen>
+    <dimen name="settingsIconHeight">28dp</dimen>
+    <dimen name="textSizeBtnSubmitProgress">20sp</dimen>
+    <dimen name="textSizeCreateUsernameChoose">29sp</dimen>
+    <dimen name="textSizeCreateUsernameHeader">32sp</dimen>
+    <dimen name="textSizeLoginFinePrint">18sp</dimen>
+    <dimen name="textSizeSignupFinePrint">16sp</dimen>
+    <dimen name="textSizeSignupHeader">30sp</dimen>
+    <dimen name="textSizeSignupLogin">19sp</dimen>
+</resources>

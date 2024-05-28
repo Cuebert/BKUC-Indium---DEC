@@ -1,5 +1,8 @@
 # BKUC-Indium---DEC
 Reversal of BKUC Indium android roblox executor
+##### Note for Roblox
+If you have any issue with the existence of this repository please let me know and I will promptly take it down, the most effective manner of doing so would probably be an email or by opening an issue. It is not necessary to initiate any legal action, my intention is not to expose any Roblox intellectual property or the use of cheats/exploits on your platform. I simply want to provide users with the information necessary to avoid malware and stay safe.
+
 ##### Disclaimer
 PLEASE NOTE I AM NOT AT ALL AFFILIATED OR PRACTICALLY EVEN IN CONTACT WITH THE DEVELOPERS OF THIS APP
 They banned me from their discord server for reasons I am not aware of, possible just because I was decompiling their app and they don't like that which would be a major red flag security wise.
